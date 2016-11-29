@@ -9,7 +9,7 @@ function add ( op1, op2 ) {
 }
 
 var voltron = new Robot("Voltron");
-var bender = new Robot("Bender Rodriguez");
+var bender = new Robot("Bender Bending Rodriguez");
 var optimus = new Robot("Optimus Prime");
 var megaman = new Robot("Mega Man");
 var bmo = new Robot("B-Mo");
@@ -25,5 +25,5 @@ console.log(add.call(voltron,2,3));
 console.log(add.apply(optimus,[20,30]));
 
 // #4
-
-console.log();
+var calculate = add.bind(bender);
+console.log(calculate("drinking","beer"));
