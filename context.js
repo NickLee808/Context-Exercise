@@ -1,7 +1,7 @@
 var Robot = function (name) {
   this.name = name;
 
-}
+};
 
 function add ( op1, op2 ) {
   this.name = this.name || "Humans";
@@ -17,7 +17,7 @@ var wall_e = new Robot("Wall-E");
 
 
 // #1
-console.log(  );
+console.log(add(0,1));
 
 // #2  
 console.log(  );
